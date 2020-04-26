@@ -14,13 +14,13 @@ print(titanic_df.info())
 #Questions
 """
 Q1 - Who are the passengers in the titanic?(Gender,Age,Class,..etc)
-Q2 - What deck were the passengers  on and how does that  relate to theie class?
+Q2 - What deck were the passengers  on and how does that  relate to their class?
 Q3 - Where did the passengers come from?
 Q4 - Who was alone and who was with family?
 Q5 - What factors helped someone survive the sinking?
 """
 
-#Q1
+#Q1 
 
 #getting the count of males and females and plotting them
 sns.catplot(x='Sex',kind='count',data=titanic_df)
